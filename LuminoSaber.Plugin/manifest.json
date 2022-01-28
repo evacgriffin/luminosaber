@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "LuminoSaber",
+  "name": "LuminoSaber",
+  "author": "Eva Schwesig, Jeremiah Griffin",
+  "version": "0.1.0",
+  "description": "Syncs saber colors to a Philips Hue entertainment area",
+  "gameVersion": "1.19.0",
+  "dependsOn": {
+    "BSIPA": "^4.2.1"
+  }
+}
