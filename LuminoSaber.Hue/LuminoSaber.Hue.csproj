@@ -1,9 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <TargetFramework>net472</TargetFramework>
+    <Product>$(SolutionName)</Product>
+    <Authors>Eva Schwesig, Jeremiah Griffin</Authors>
+    <PackageProjectUrl>https://github.com/evachristinschwesig/luminosaber</PackageProjectUrl>
+    <AssemblyVersion>0.1.0</AssemblyVersion>
+    <FileVersion>0.1.0</FileVersion>
   </PropertyGroup>
 
 </Project>

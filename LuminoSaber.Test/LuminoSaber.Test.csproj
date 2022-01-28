@@ -2,9 +2,17 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <TargetFramework>net472</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Authors>Eva Schwesig, Jeremiah Griffin</Authors>
+    <Product>$(SolutionName)</Product>
+    <PackageProjectUrl>https://github.com/evachristinschwesig/luminosaber</PackageProjectUrl>
+    <AssemblyVersion>0.1.0</AssemblyVersion>
+    <FileVersion>0.1.0</FileVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LuminoSaber.Hue\LuminoSaber.Hue.csproj" />
+  </ItemGroup>
 
 </Project>
